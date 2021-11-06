@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             country_info.setText(info[position - 1]);
         }
         else{
-            country_info.setText("pick a country first");
+            country_info.setText("Pick a country first");
         }
     }
 
